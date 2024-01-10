@@ -6,11 +6,18 @@ return {
   build = ":MasonUpdate",
   opts = {
     ensure_installed = {
+      "blade-formatter",
+      "eslint-lsp",
+      "html-lsp",
       "phpactor",
       "php-debug-adapter",
       "pint",
+      "stimulus-language-server",
       "stylua",
       "shfmt",
+      "sqls",
+      "tlint",
+      "vue-language-server",
       -- "flake8",
     },
   },

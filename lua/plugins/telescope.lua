@@ -17,4 +17,13 @@ return {
       end,
     },
   },
+  keys = {
+    {
+      "<leader>fu",
+      function()
+        require("telescope.builtin").lsp_references()
+      end,
+      desc = "Find usage",
+    },
+  },
 }
