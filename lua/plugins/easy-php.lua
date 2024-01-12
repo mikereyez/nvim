@@ -1,7 +1,8 @@
 return {
   "ta-tikoma/php.easy.nvim",
-  enabled = false,
+  enabled = true,
   config = true,
+  lazy = false,
   keys = {
     { "-b", "<CMD>PHPEasyDocBlock<CR>" },
     { "-r", "<CMD>PHPEasyReplica<CR>" },
