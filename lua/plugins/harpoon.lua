@@ -22,14 +22,11 @@ return {
     })
   end,
   keys = function()
-    local Util = require("lazyvim.util")
-    local map = Util.safe_keymap_set
-
-    map("n", "<leader>ha", function()
+    vim.keymap.set("n", "<leader>ha", function()
       require("harpoon"):list():append()
     end, { desc = "Add buffer to harpoon" })
 
-    map("n", "<leader>hl", function()
+    vim.keymap.set("n", "<leader>hl", function()
       require("harpoon").ui:toggle_quick_menu(require("harpoon"):list())
     end, { desc = "Show list with buffers in harpoon" })
   end,

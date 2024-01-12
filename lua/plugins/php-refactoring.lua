@@ -1,5 +1,6 @@
 return {
   "adoy/vim-php-refactoring-toolbox",
+  enabled = false,
   name = "php-refactor",
   -- keys = {
   --   {
