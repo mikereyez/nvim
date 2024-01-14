@@ -14,9 +14,9 @@ return {
         },
         never_show = {},
       },
-    },
-    follow_current_file = {
-      enabled = false,
+      follow_current_file = {
+        enabled = false,
+      },
     },
   },
 }

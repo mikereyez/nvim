@@ -1,8 +1,12 @@
 return {
-  -- Theme inspired by Atom
-  "Mofiqul/dracula.nvim",
-  priority = 1000,
-  config = function()
-    vim.cmd.colorscheme("dracula")
-  end,
+  {
+    "briones-gabriel/darcula-solid.nvim",
+    dependencies = {
+      "rktjmp/lush.nvim",
+    },
+    config = function()
+      vim.cmd("colorscheme darcula-solid")
+      vim.cmd("set termguicolors")
+    end,
+  },
 }
