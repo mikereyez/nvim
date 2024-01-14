@@ -15,7 +15,7 @@ return {
         never_show = {},
       },
       follow_current_file = {
-        enabled = false,
+        enabled = true,
       },
     },
   },
